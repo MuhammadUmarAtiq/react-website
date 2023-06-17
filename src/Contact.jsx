@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "./Footer";
 const Contact = () => {
   const [data, setData] = useState({
     fullName: "",
@@ -108,6 +109,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

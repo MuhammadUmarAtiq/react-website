@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "./Data"
 import Card from "./Card";
+import Footer from "./Footer";
 const Services = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
